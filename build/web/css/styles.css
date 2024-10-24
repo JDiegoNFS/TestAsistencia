@@ -1,0 +1,75 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 20 oct. 2024, 10:58:29 a. m.
+    Author     : AsturiasNFS
+*/
+
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Título */
+h1 {
+    color: #3a3a3a;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Contenedor de botones */
+.admin-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Botones de acciones del administrador */
+.admin-buttons button {
+    background-color: #4CAF50; /* Verde elegante */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px 0;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.admin-buttons button:hover {
+    background-color: #45a049; /* Verde más intenso al pasar el ratón */
+    transform: scale(1.05);
+}
+
+/* Estilo general de botones */
+button:focus {
+    outline: none;
+}
+
+/* Responsivo para móviles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .admin-buttons button {
+        width: 100%;
+    }
+}
